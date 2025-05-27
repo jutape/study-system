@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Study Markdown Application
+
+This is a Next.js application that allows you to:
+
+1. Browse and read markdown files from the `study` folder
+2. Extract titles and content from the markdown files
+3. Generate interactive quizzes based on JSON data at the end of markdown files
 
 ## Getting Started
 
@@ -10,27 +16,76 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Use
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Creating Study Content
 
-## Learn More
+1. Place your markdown files in the `study` folder
+2. Each file should have a title as the first h1 header (e.g., `# Title Here`)
+3. At the end of the file, add a quiz in JSON format surrounded by triple backticks with "json quiz" annotation:
 
-To learn more about Next.js, take a look at the following resources:
+```json quiz
+{
+  "title": "Your Quiz Title",
+  "questions": [
+    {
+      "question": "Question text here",
+      "options": [
+        "Option 1", 
+        "Option 2", 
+        "Option 3", 
+        "Option 4"
+      ],
+      "correctAnswer": 1,  // Index of the correct answer (starting from 0)
+      "explanation": "Explanation of why this answer is correct"
+    },
+    // More questions...
+  ]
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Browse all markdown files on the home page
+- Search for study content by title or content
+- Read individual study content with proper markdown formatting
+- Dark/light mode support for better reading experience
+- Interactive table of contents for easy navigation
+- Take interactive quizzes with immediate feedback and progress tracking
+- View explanations for correct and incorrect answers
+- Comprehensive results summary after completing quizzes
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- gray-matter (for markdown parsing)
+- react-markdown (for rendering markdown)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+- `/study` - Contains all markdown study files
+- `/src/app` - Next.js application pages
+- `/src/components` - React components including the Quiz component
+- `/src/lib` - Utility functions for working with markdown files
+- `/src/types` - TypeScript interfaces
+
+## Adding More Content
+
+There are two ways to add new study materials:
+
+1. **Manually**: Simply add new markdown files to the `study` folder with the proper format, and they will automatically appear in the application.
+
+2. **Using the helper script**: Run the following command and follow the prompts:
+
+```bash
+npm run new-study
+```
+
+This will create a new markdown file with the basic structure and an optional quiz template.
