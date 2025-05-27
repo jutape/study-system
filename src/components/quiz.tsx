@@ -9,7 +9,7 @@ import { CheckCircle, XCircle, ChevronRight, ChevronLeft } from 'lucide-react';
 // Função para formatar texto com quebras de linha e outros caracteres especiais
 function formatText(text: string): React.ReactElement {
   // Substituir caracteres escapados
-  let formattedText = text
+  const formattedText = text
     .replace(/\\n/g, '\n')  // Quebras de linha
     .replace(/\\"/g, '"')   // Aspas duplas
     .replace(/\\'/g, "'")   // Aspas simples

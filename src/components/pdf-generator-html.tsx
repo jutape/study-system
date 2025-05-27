@@ -339,48 +339,47 @@ const PDFGeneratorHTML: React.FC<PDFGeneratorProps> = ({
         }
     </style>
 </head>
-<body>
-    <div class="header">
-        <h1 class="main-title">\${title}</h1>
-        <p class="subtitle">Material de Estudo • Gerado em \${new Date().toLocaleDateString('pt-BR')}</p>
+<body>    <div class="header">
+        <h1 class="main-title">${title}</h1>
+        <p class="subtitle">Material de Estudo • Gerado em ${new Date().toLocaleDateString('pt-BR')}</p>
     </div>
     
     <div class="content-section">
         <h2 class="section-title">📚 Conteúdo do Material</h2>
         <div class="content">
-            \${markdownToHTML(content)}
+            ${markdownToHTML(content)}
         </div>
     </div>
     
-    \${quizzes.length > 0 ? \`
+    ${quizzes.length > 0 ? `
     <div class="quiz-section">
-        <h2 class="section-title">📝 Exercícios\${includeAnswers ? ' e Respostas' : ''}</h2>
-        \${quizzes.map((quiz, index) => \`
+        <h2 class="section-title">📝 Exercícios${includeAnswers ? ' e Respostas' : ''}</h2>
+        ${quizzes.map((quiz, index) => `
             <div class="quiz-question">
-                <div class="question-number">Questão \${index + 1}</div>
-                <div class="question-text">\${formatText(quiz.question)}</div>
+                <div class="question-number">Questão ${index + 1}</div>
+                <div class="question-text">${formatText(quiz.question)}</div>
                 <div class="options">
-                    \${quiz.options.map((option, optIndex) => \`
-                        <div class="option \${includeAnswers && optIndex === quiz.correctAnswer ? 'correct-answer' : ''}">
-                            <span class="option-letter">\${String.fromCharCode(65 + optIndex)})</span>
-                            <span class="option-text">\${formatText(option)}</span>
+                    ${quiz.options.map((option, optIndex) => `
+                        <div class="option ${includeAnswers && optIndex === quiz.correctAnswer ? 'correct-answer' : ''}">
+                            <span class="option-letter">${String.fromCharCode(65 + optIndex)})</span>
+                            <span class="option-text">${formatText(option)}</span>
                         </div>
-                    \`).join('')}
+                    `).join('')}
                 </div>
-                \${includeAnswers ? \`
+                ${includeAnswers ? `
                     <div class="answer-section">
-                        <div class="answer-label">✅ Resposta Correta: \${String.fromCharCode(65 + quiz.correctAnswer)}</div>
-                        \${quiz.explanation ? \`<div class="explanation">\${formatText(quiz.explanation)}</div>\` : ''}
+                        <div class="answer-label">✅ Resposta Correta: ${String.fromCharCode(65 + quiz.correctAnswer)}</div>
+                        ${quiz.explanation ? `<div class="explanation">${formatText(quiz.explanation)}</div>` : ''}
                     </div>
-                \` : \`
+                ` : `
                     <div class="answer-section">
                         <div class="answer-label">Resposta: ___________</div>
                     </div>
-                \`}
+                `}
             </div>
-        \`).join('')}
+        `).join('')}
     </div>
-    \` : ''}
+    ` : ''}
 </body>
 </html>`
 
@@ -540,29 +539,28 @@ const PDFGeneratorHTML: React.FC<PDFGeneratorProps> = ({
         }
     </style>
 </head>
-<body>
-    <div class="header">
-        <h1 class="main-title">📝 Exercícios - \${title}</h1>
-        <p class="subtitle">Lista de Exercícios • Gerado em \${new Date().toLocaleDateString('pt-BR')}</p>
+<body>    <div class="header">
+        <h1 class="main-title">📝 Exercícios - ${title}</h1>
+        <p class="subtitle">Lista de Exercícios • Gerado em ${new Date().toLocaleDateString('pt-BR')}</p>
     </div>
     
-    \${quizzes.map((quiz, index) => \`
+    ${quizzes.map((quiz, index) => `
         <div class="quiz-question">
-            <div class="question-number">Questão \${index + 1}</div>
-            <div class="question-text">\${formatText(quiz.question)}</div>
+            <div class="question-number">Questão ${index + 1}</div>
+            <div class="question-text">${formatText(quiz.question)}</div>
             <div class="options">
-                \${quiz.options.map((option, optIndex) => \`
+                ${quiz.options.map((option, optIndex) => `
                     <div class="option">
-                        <span class="option-letter">\${String.fromCharCode(65 + optIndex)})</span>
-                        <span class="option-text">\${formatText(option)}</span>
+                        <span class="option-letter">${String.fromCharCode(65 + optIndex)})</span>
+                        <span class="option-text">${formatText(option)}</span>
                     </div>
-                \`).join('')}
+                `).join('')}
             </div>
             <div class="answer-section">
                 <div class="answer-label">Resposta: ___________</div>
             </div>
         </div>
-    \`).join('')}
+    `).join('')}
 </body>
 </html>`
 
