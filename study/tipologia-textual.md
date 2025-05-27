@@ -128,60 +128,59 @@ Entender os **tipos textuais** é fundamental para acertar questões de **interp
   "title": "Quiz - Tipologia Textual (Cebraspe - PF 2025)",
   "questions": [
     {
-      "question": "O texto apresenta uma sequência de eventos envolvendo personagens e ações situadas no tempo e espaço, com verbos predominantemente no pretérito, caracterizando-o como narrativo.",
+      "question": "Texto:\n“Trabalho infantil cai ao menor nível da série histórica, mas Brasil ainda tem 1,6 milhão nesta situação.”\n\nEnunciado:\nO texto divulgado pelo IBGE sobre a queda do trabalho infantil no Brasil pode ser classificado como pertencente ao gênero jornalístico, pois apresenta informações factuais, baseadas em dados estatísticos, e busca informar o público sobre um tema de interesse social.",
       "options": [
         "Certo",
         "Errado"
       ],
       "correctAnswer": 0,
-      "explanation": "A presença de personagens, ações encadeadas e verbos no passado são características típicas de textos narrativos."
+      "explanation": "O texto apresenta características típicas de reportagens jornalísticas: linguagem objetiva, uso de dados estatísticos e finalidade informativa."
     },
     {
-      "question": "O texto tem como objetivo principal convencer o leitor sobre determinado ponto de vista, utilizando argumentos e linguagem objetiva, sendo, portanto, do tipo dissertativo.",
+      "question": "Texto:\n“Um homem dado a estudos de ornitologia, por nome Macedo, referiu a alguns amigos um caso tão extraordinário que ninguém lhe deu crédito.”\n\nEnunciado:\nO texto pertence ao gênero narrativo, pois apresenta uma sequência de acontecimentos encadeados e inclui a interação entre personagens para construir a história.",
       "options": [
         "Certo",
         "Errado"
       ],
       "correctAnswer": 0,
-      "explanation": "Textos dissertativos visam expor e defender uma ideia ou opinião, utilizando argumentos lógicos e linguagem clara."
+      "explanation": "O texto apresenta elementos narrativos clássicos: personagens, enredo e sequência temporal de eventos."
     },
     {
-      "question": "O texto fornece instruções passo a passo para a realização de uma tarefa, utilizando verbos no imperativo, caracterizando-se como injuntivo.",
-      "options": [
-        "Certo",
-        "Errado"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Textos injuntivos têm como finalidade instruir ou orientar o leitor, frequentemente utilizando verbos no imperativo."
-    },
-    {
-      "question": "O texto apresenta informações e dados de forma objetiva, sem emitir opiniões, com o propósito de informar o leitor, sendo classificado como expositivo.",
-      "options": [
-        "Certo",
-        "Errado"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Textos expositivos têm como objetivo apresentar informações ou explicar assuntos de maneira clara e objetiva, sem intenção de persuadir."
-    },
-    {
-      "question": "O texto descreve detalhadamente as características físicas e comportamentais de um personagem, utilizando muitos adjetivos, o que o classifica como descritivo.",
-      "options": [
-        "Certo",
-        "Errado"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Textos descritivos têm como foco retratar minuciosamente características de pessoas, objetos ou ambientes, utilizando linguagem rica em detalhes."
-    },
-    {
-      "question": "O texto apresenta uma sequência de instruções para montagem de um móvel, utilizando verbos no infinitivo impessoal, caracterizando-se como narrativo.",
+      "question": "Texto:\n“A cor, a animação e a graça do passarinho davam àquele amontoado de destroços uma nota de vida e de mocidade.”\n\nEnunciado:\nA expressão “nota de vida e de mocidade” tem conotação literal, indicando um som emitido pelo canário que simboliza vitalidade.",
       "options": [
         "Certo",
         "Errado"
       ],
       "correctAnswer": 1,
-      "explanation": "Apesar de apresentar uma sequência de ações, o uso de verbos no infinitivo impessoal para instruções caracteriza o texto como injuntivo, não narrativo."
+      "explanation": "A expressão é metafórica, indicando que o canário trazia vivacidade ao ambiente, não se referindo a um som literal."
+    },
+    {
+      "question": "Texto:\n“Então o teu dono não te vendeu a esta casa? Não foi a miséria ou a ociosidade que te trouxe a este cemitério.”\n\nEnunciado:\nA correlação verbal entre os tempos verbais “vendeu” e “trouxe” está adequada, pois ambos estão no pretérito perfeito, indicando ações concluídas no passado.",
+      "options": [
+        "Certo",
+        "Errado"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Os verbos estão corretamente conjugados no pretérito perfeito, mantendo a coerência temporal."
+    },
+    {
+      "question": "Texto:\n“Nem o ruído do cavalo e do veículo, nem a minha entrada fez levantar o dono do negócio.”\n\nEnunciado:\nO termo “o dono do negócio” exerce a função de complemento nominal, pois está relacionado ao núcleo verbal “fez levantar”.",
+      "options": [
+        "Certo",
+        "Errado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“O dono do negócio” é o sujeito da oração, não um complemento nominal."
+    },
+    {
+      "question": "Texto:\n“A queda do trabalho infantil foi observada em todas as faixas etárias.”\n\nEnunciado:\nO termo “do trabalho infantil” exerce a função de adjunto adnominal, pois restringe e especifica o substantivo “queda”.",
+      "options": [
+        "Certo",
+        "Errado"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A expressão “do trabalho infantil” especifica o tipo de queda, funcionando como adjunto adnominal."
     }
   ]
 }
-
 ```
