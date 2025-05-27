@@ -6,6 +6,30 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter, CardDescription } from '@/components/ui/card';
 import { CheckCircle, XCircle, ChevronRight, ChevronLeft } from 'lucide-react';
 
+// Função para formatar texto com quebras de linha e outros caracteres especiais
+function formatText(text: string): React.ReactElement {
+  // Substituir caracteres escapados
+  let formattedText = text
+    .replace(/\\n/g, '\n')  // Quebras de linha
+    .replace(/\\"/g, '"')   // Aspas duplas
+    .replace(/\\'/g, "'")   // Aspas simples
+    .replace(/\\t/g, '\t'); // Tabs
+  
+  // Dividir por quebras de linha reais
+  const parts = formattedText.split('\n');
+  
+  return (
+    <>
+      {parts.map((part, index) => (
+        <span key={index}>
+          {part}
+          {index < parts.length - 1 && <br />}
+        </span>
+      ))}
+    </>
+  );
+}
+
 interface QuizProps {
   quiz: QuizType;
 }
@@ -64,10 +88,9 @@ export function Quiz({ quiz }: QuizProps) {
               const userAnswer = userAnswers[index];
               const isCorrect = userAnswer === question.correctAnswer;
               
-              return (
-                <div key={index} className="border rounded-lg p-4">
-                  <h4 className="font-medium mb-3">
-                    Questão {index + 1}: {question.question}
+              return (                <div key={index} className="border rounded-lg p-4">
+                  <h4 className="font-medium mb-3 leading-relaxed">
+                    Questão {index + 1}: {formatText(question.question)}
                   </h4>
                     <div className="space-y-2 mb-4">
                     {question.options.map((option, optionIndex) => {
@@ -98,17 +121,15 @@ export function Quiz({ quiz }: QuizProps) {
                               {isSelected && isCorrect && <CheckCircle className="h-4 w-4 mr-2 mt-0.5 flex-shrink-0" />}
                               {isSelected && !isCorrect && <XCircle className="h-4 w-4 mr-2 mt-0.5 flex-shrink-0" />}
                               {!isSelected && isCorrectOption && <CheckCircle className="h-4 w-4 mr-2 mt-0.5 flex-shrink-0 text-green-600" />}
-                              <span className="leading-relaxed">{option}</span>
+                              <span className="leading-relaxed">{formatText(option)}</span>
                             </div>
                           </div>
                         </div>
                       );
                     })}
-                  </div>
-
-                  <div className="bg-blue-50 border border-blue-200 rounded p-3 dark:bg-blue-950 dark:border-blue-700">
+                  </div>                  <div className="bg-blue-50 border border-blue-200 rounded p-3 dark:bg-blue-950 dark:border-blue-700">
                     <p className="text-sm font-medium text-blue-800 mb-1 dark:text-blue-200">Explicação:</p>
-                    <p className="text-sm text-blue-700 dark:text-blue-300">{question.explanation}</p>
+                    <p className="text-sm text-blue-700 dark:text-blue-300 leading-relaxed">{formatText(question.explanation)}</p>
                   </div>
                 </div>
               );
@@ -185,11 +206,12 @@ function QuestionCard({ question, index, selectedOption, onSelectOption }: Quest
     onSelectOption(optionIndex);
   };
 
-  return (
-    <Card className="shadow-md border">
+  return (    <Card className="shadow-md border">
       <CardHeader className="bg-muted/30">
         <CardTitle>Questão {index + 1}</CardTitle>
-        <CardDescription className="text-lg mt-2">{question.question}</CardDescription>
+        <CardDescription className="text-lg mt-2 leading-relaxed">
+          {formatText(question.question)}
+        </CardDescription>
       </CardHeader>
       <CardContent className="pt-6">        <div className="grid grid-cols-1 gap-4">
           {question.options.map((option, optIndex) => (
@@ -202,14 +224,13 @@ function QuestionCard({ question, index, selectedOption, onSelectOption }: Quest
               }`}
               variant={selectedOption === optIndex ? 'default' : 'outline'}
               onClick={() => handleOptionClick(optIndex)}
-            >
-              <span className="flex-shrink-0 mr-2 font-semibold">
+            >              <span className="flex-shrink-0 mr-2 font-semibold">
                 {optIndex === 0 && 'A.'}
                 {optIndex === 1 && 'B.'}
                 {optIndex === 2 && 'C.'}
                 {optIndex === 3 && 'D.'}
               </span>
-              <span className="flex-1">{option}</span>
+              <span className="flex-1">{formatText(option)}</span>
             </Button>
           ))}
         </div>

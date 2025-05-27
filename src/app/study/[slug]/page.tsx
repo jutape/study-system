@@ -8,6 +8,7 @@ import rehypeRaw from 'rehype-raw';
 import rehypeSanitize from 'rehype-sanitize';
 import remarkGfm from 'remark-gfm';
 import { Quiz as QuizComponent } from '@/components/quiz';
+import PDFGeneratorHTML from '@/components/pdf-generator-html';
 import { BookOpen, FileText, CheckSquare } from 'lucide-react';
 
 interface PageProps {
@@ -27,16 +28,23 @@ export default async function StudyPage({ params }: PageProps) {
     <div className="container mx-auto py-10">      <div className="flex items-center justify-between mb-8">
         <Button variant="outline" asChild>
           <Link href="/">← Voltar para Todas as Notas</Link>
-        </Button>
-        
-        {file.quiz && (
-          <Button variant="outline" asChild>
-            <Link href="#quiz" className="flex items-center">
-              <CheckSquare className="mr-2 h-4 w-4" />
-              Ir para Quiz
-            </Link>
-          </Button>
-        )}
+        </Button>        <div className="flex items-center gap-2">
+          <PDFGeneratorHTML 
+            title={file.title} 
+            content={file.content} 
+            quizzes={file.quiz?.questions || []} 
+            includeAnswers={true} 
+          />
+          
+          {file.quiz && (
+            <Button variant="outline" asChild>
+              <Link href="#quiz" className="flex items-center">
+                <CheckSquare className="mr-2 h-4 w-4" />
+                Ir para Quiz
+              </Link>
+            </Button>
+          )}
+        </div>
       </div>
       
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
