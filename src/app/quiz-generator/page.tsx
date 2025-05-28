@@ -7,7 +7,6 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Plus, Trash2, Copy, Check } from 'lucide-react';
 
@@ -64,27 +63,13 @@ export default function QuizGeneratorPage() {  const [quiz, setQuiz] = useState<
       }));
     }
   };
-
-  const updateQuestion = (questionIndex: number, field: keyof Question, value: any) => {
+  const updateQuestion = (questionIndex: number, field: keyof Question, value: string | number) => {
     setQuiz(prev => ({
       ...prev,
       questions: prev.questions.map((q, i) =>
         i === questionIndex ? { ...q, [field]: value } : q
       )
     }));
-  };
-  const updateOption = (questionIndex: number, optionIndex: number, value: string) => {
-    // Para questões Certo/Errado, não permitimos alterar as opções
-    return;
-  };
-
-  const escapeJsonString = (str: string) => {
-    return str
-      .replace(/\\/g, '\\\\')
-      .replace(/"/g, '\\"')
-      .replace(/\n/g, '\\n')
-      .replace(/\r/g, '\\r')
-      .replace(/\t/g, '\\t');
   };
 
   const generateJson = () => {

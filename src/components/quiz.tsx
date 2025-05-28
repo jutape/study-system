@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Quiz as QuizType, Question as QuestionType } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter, CardDescription } from '@/components/ui/card';
-import { CheckCircle, XCircle, ChevronRight, ChevronLeft, Eye, EyeOff } from 'lucide-react';
+import { CheckCircle, XCircle, ChevronRight, ChevronLeft } from 'lucide-react';
 
 // Função para formatar texto com quebras de linha e outros caracteres especiais
 function formatText(text: string): React.ReactElement {
