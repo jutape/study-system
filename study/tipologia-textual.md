@@ -128,58 +128,54 @@ Entender os **tipos textuais** é fundamental para acertar questões de **interp
   "title": "Quiz - Tipologia Textual (Cebraspe - PF 2025)",
   "questions": [
     {
-      "question": "Texto:\n“Trabalho infantil cai ao menor nível da série histórica, mas Brasil ainda tem 1,6 milhão nesta situação.”\n\nEnunciado:\nO texto divulgado pelo IBGE sobre a queda do trabalho infantil no Brasil pode ser classificado como pertencente ao gênero jornalístico, pois apresenta informações factuais, baseadas em dados estatísticos, e busca informar o público sobre um tema de interesse social.",
+      "text": "IDEIAS DO CANÁRIO\n\nUm homem dado a estudos de ornitologia, por nome Macedo, referiu a alguns amigos um caso tão extraordinário que ninguém lhe deu crédito. Alguns chegam a supor que Macedo virou o juízo. Eis aqui o resumo da narração.\n\nNo princípio do mês passado, — disse ele, — indo por uma rua, sucedeu que uma carroça, à disparada, quase me atirou ao chão. Escapei saltando para dentro de um brechó. Nem o ruído do cavalo e do veículo, nem a minha entrada fez levantar o dono do negócio, que cochilava ao fundo, sentado numa cadeira de abrir.\n\nEra um frangalho de homem, barba cor de palha suja, a cabeça enfiada em um gorro esfarrapado, que provavelmente não achara comprador. Não se adivinhava nele nenhuma história, como podiam ter alguns dos objetos que vendia, nem se lhe sentia a tristeza austera e desenganada das vidas que foram vidas.\n\nA loja era escura, atulhada das coisas velhas, tortas, rotas, enxovalhadas, enferrujadas que de ordinário se acham em tais casas, tudo naquela meia desordem própria do negócio. Essa mistura, posto que banal, era interessante. Panelas sem tampa, tampas sem panela, botões, sapatos, fechaduras, uma saia preta, chapéus de palha e de pelo, caixonetes, binóculos, meias casacas, uma espada, um cão empalhado, um par de chinelos, luvas, vasos sem nome, acessórios militares, uma bolsa de veludo, dois cabides, um estilingue, um termômetro, cadeiras, um retrato litografado pelo finado Sisson, um gamão, duas máscaras de arame para o carnaval que há de vir, tudo isso e o mais que não vi ou não me ficou de memória, enchia a loja nas imediações da porta, encostado, pendurado ou exposto em caixas de vidro, igualmente velhas. Lá para dentro, havia outras coisas mais e muitas, e do mesmo aspecto, dominando os objetos grandes, cômodas, cadeiras, camas, uns por cima dos outros, perdidos na escuridão.\n\nIa a sair, quando vi uma gaiola pendurada da porta. Tão velha como o resto, para ter o mesmo aspecto da desolação geral, faltava-lhe estar vazia. Não estava vazia. Dentro pulava um canário.\n\nA cor, a animação e a graça do passarinho davam àquele amontoado de destroços uma nota de vida e de mocidade. Era o último passageiro de algum naufrágio, que ali foi parar íntegro e alegre como dantes. Logo que olhei para ele, entrou a saltar mais abaixo e acima, de poleiro em poleiro, como se quisesse dizer que no meio daquele cemitério brincava um raio de sol. Não atribuo essa imagem ao canário, senão porque falo a gente retórica; em verdade, ele não pensou em cemitério nem sol, segundo me disse depois.\n\nEu, de envolta com o prazer que me trouxe aquela vista, senti-me indignado do destino do pássaro, e murmurei baixinho palavras de azedume.\n\n— Quem seria o dono execrável deste bichinho, que teve ânimo de se desfazer dele por alguns pares de moedas? Ou que mão indiferente, não querendo guardar esse companheiro de dono defunto, o deu de graça a algum pequeno, que o vendeu para ir ao jogo do bicho?\n\nE o canário, de cima do poleiro, trilou isto:\n— Quem quer que sejas tu, certamente não estás em teu juízo. Não tive dono horrível, nem fui dado a nenhum menino que me vendesse. São imaginações de pessoa doente; vai-te curar, amigo…\n\n— Como? — interrompi eu, sem ter tempo de ficar espantado. Então o teu dono não te vendeu a esta casa? Não foi a miséria ou a ociosidade que te trouxe a este cemitério, como um raio de sol?\n\n— Não sei que seja sol nem cemitério. Se os canários que tens visto usam do primeiro desses nomes, tanto melhor, porque é bonito, mas estou crendo que confundes.\n\n— Perdão, mas tu não vieste para aqui à toa, sem ninguém, salvo se o teu dono foi sempre aquele homem que ali está sentado.\n\n— Que dono? Esse homem que aí está é meu criado, dá-me água e comida todos os dias, com tal regularidade que eu, se devesse pagar-lhe os serviços, não seria com pouco; mas os canários não pagam criados. Em verdade, se o mundo é propriedade dos canários, seria extravagante que eles pagassem o que está no mundo…\n(ASSIS, Machado de. Contos: uma antologia. São Paulo: Companhia das Letras, 2004, 2ª\nedição, volume II. pp. 427-432. Com adaptações)",
+      "question": "O texto é predominantemente narrativo, pois apresenta uma sequência de eventos com personagens e enredo.",
       "options": [
         "Certo",
         "Errado"
       ],
       "correctAnswer": 0,
-      "explanation": "O texto apresenta características típicas de reportagens jornalísticas: linguagem objetiva, uso de dados estatísticos e finalidade informativa."
+      "explanation": "A narrativa é evidenciada pela presença de personagens (como Macedo), ações sequenciadas e um enredo que desenvolve uma história."
     },
     {
-      "question": "Texto:\n“Um homem dado a estudos de ornitologia, por nome Macedo, referiu a alguns amigos um caso tão extraordinário que ninguém lhe deu crédito.”\n\nEnunciado:\nO texto pertence ao gênero narrativo, pois apresenta uma sequência de acontecimentos encadeados e inclui a interação entre personagens para construir a história.",
+      "text": "Trabalho infantil cai ao menor nível da série histórica, mas Brasil ainda tem 1,6 milhão nesta situação\n\nA quantidade de crianças e adolescentes que exerciam trabalho infantil no país caiu para 1,6 milhão em 2023, frente a 2022 (queda de 14,6%). Trata-se do menor patamar da série histórica do IBGE, iniciada em 2016. A proporção de menores no trabalho infantil vinha caindo ao longo dos anos, mas chegou a subir para 4,9% em 2022, após a pandemia.\n\nEm 2023, porém, o índice recuou para 4,2%, também menor percentual da série. Os dados fazem parte da pesquisa \"Pnad Contínua Trabalho de Crianças e Adolescentes\", divulgada nesta sexta-feira pelo IBGE. O levantamento mostra ainda que 586 mil menores de 5 a 17 anos (ou 36,47% do 1,6 milhão de jovens na condição de trabalho infantil), se enquadravam nos \"piores trabalhos\" da lista TIP (Trabalho Infantil Perigoso).\n\nEsse também foi o menor contingente da série histórica da pesquisa e representa uma redução de 22,5% frente a 2022, quando 756 mil crianças e adolescentes do país estavam nessa situação. Esses menores desempenhavam funções que envolviam risco de acidentes ou eram prejudiciais à saúde, como operação de máquinas, manuseio de produtos químicos e extração de minério.\n\nA queda do trabalho infantil foi observada em todas as faixas etárias, mas o recuo foi mais expressivo entre as crianças de 5 a 13 anos, onde houve uma redução de 449 mil em 2022 para 346 mil em 2023 (queda de 22,94%).\n\nEntre a faixa de 14 e 15 anos, o número de crianças em situação de trabalho infantil caiu de 444 mil para 366 mil, redução de 17,6% em um ano. Já entre a faixa de 16 a 17 anos, a redução foi de 9,41%, de 988 mil em 2022 para 895 mil em 2023.\n\nFonte: https://oglobo.globo.com/economia/noticia/2024/10/18/trabalho-infantil-cai-ao-menor-nivel-da-serie-historicamas-brasil-ainda-tem-16-milhao-nesta-situacao.ghtml (adaptado).",
+      "question": "O texto divulgado pelo IBGE sobre a queda do trabalho infantil no Brasil pode ser classificado como pertencente ao gênero jornalístico, pois apresenta informações factuais, baseadas em dados estatísticos, e busca informar o público sobre um tema de interesse social.",
       "options": [
         "Certo",
         "Errado"
       ],
       "correctAnswer": 0,
-      "explanation": "O texto apresenta elementos narrativos clássicos: personagens, enredo e sequência temporal de eventos."
+      "explanation": "O texto possui características típicas do gênero jornalístico, com o objetivo principal de informar o leitor sobre dados relevantes, utilizando uma linguagem objetiva e baseada em estatísticas."
     },
     {
-      "question": "Texto:\n“A cor, a animação e a graça do passarinho davam àquele amontoado de destroços uma nota de vida e de mocidade.”\n\nEnunciado:\nA expressão “nota de vida e de mocidade” tem conotação literal, indicando um som emitido pelo canário que simboliza vitalidade.",
+      "text": "Texto 1A1-II\n\nO imposto sobre a propriedade de veículos automotores (IPVA) é um tributo que deve ser pago todo ano pelos donos de qualquer tipo de veículo. O valor do IPVA é calculado com base no valor do veículo comprado, e sua quitação é um requisito para o licenciamento.\n\nDo total arrecadado com cada veículo, 50% vão para o governo estadual e os outros 50%, para o município no qual o veículo tiver sido emplacado. Essa arrecadação, recolhida pela União, pelos estados ou pelos municípios, não é exclusivamente destinada a asfaltamento de ruas e colocação de sinais, isto é, a manutenção de rodovias, mas pode abranger despesas com educação, saúde, segurança, saneamento, entre outras.\n\nPara pagar o IPVA, o proprietário de veículo recebe em sua casa um aviso de vencimento do imposto, com informações sobre o veículo, valores, datas, parcelas, formas de pagamento. Com esse documento é possível quitar o IPVA, juntamente com o seguro obrigatório, e até fazer o licenciamento antecipado. O não pagamento do IPVA implica multa e impede a realização do licenciamento.\n\nInternet: https://www.portaleducacao.com.br (com adaptações).",
+      "question": "Com relação à tipologia textual, é correto afirmar que o texto 1A1-II é predominantemente descritivo.",
+      "options": [
+        "Certo",
+        "Errado"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A tipologia descritiva é caracterizada pela apresentação detalhada de características, qualidades e aspectos de um objeto, pessoa ou situação, o que é evidenciado no texto mencionado. "
+    },
+    {
+      "text": "Texto CB1A1-I\n\nCriado em 22 de novembro de 1968, por meio da Lei n.º 5.537, o Instituto Nacional de Desenvolvimento da Educação e Pesquisa (INDEP) foi transformado em Fundo Nacional de Desenvolvimento da Educação (FNDE) por meio do Decreto n.º 872, de 15 de dezembro de 1969. Subsequentemente, a autarquia passou por mudanças que diversificaram suas funções, ampliaram a abrangência dos programas executados, ao mesmo tempo em que o volume de recursos gerenciados aumentou.\nTodas essas mudanças trouxeram desafios para a gestão das políticas e exigiram novas competências do corpo funcional da instituição.\n\n    Inicialmente, o FNDE funcionava apenas como órgão arrecadador, fiscalizador e gerencial. Era responsável, principalmente, por gerir uma das principais fontes de recursos do Ministério da Educação (MEC), o salário educação, transferindo para os estados e o Distrito Federal 2/3 dos recursos arrecadados. Em 1997, com a extinção da Fundação de Assistência ao Estudante (FAE), o FNDE ganhou novas atribuições, tornando-se responsável pelas políticas de assistência ao educando referentes às áreas alimentar e nutricional, didático-pedagógicas (livros, bibliotecas e material escolar) e apoio complementar (transporte escolar e assistência à saúde).\n\n    Mais responsabilidades foram transferidas para a autarquia em 1998, quando foram extintas as delegacias regionais do Ministério da Educação (DEMEC), o que exigiu sua reorganização a fim de responder às responsabilidades pelo acompanhamento e fiscalização da arrecadação e execução dos projetos e programas do MEC. Também passou a fazer parte das atribuições do FNDE a análise de prestação de contas dos recursos liberados para estados e municípios. Em 2004, houve a transferência da gestão do Fundo de Desenvolvimento da Escola e do Programa de Melhoria e Expansão do Ensino Médio, o que, novamente, ampliou o conjunto de funções da autarquia.\nCinara Gomes de Araújo Lobo; Julia Maurmann Ximenes. A construção da gestão do conhecimento no FNDE – um processo. Cadernos do FNDE, Brasília, v.1, n.1, jan-jun 2020, p. 11 (com adaptações).",
+      "question": "Para atingir seu propósito comunicativo, o texto é construído com base nas tipologias textuais narrativa e expositiva.",
+      "options": [
+        "Certo",
+        "Errado"
+      ],
+      "correctAnswer": 0,
+      "explanation": "O texto combina elementos narrativos, ao contar uma história ou sequência de eventos, e expositivos, ao apresentar informações de forma clara e objetiva, visando atingir seu propósito comunicativo."
+    },
+    {
+      "text": "Texto CG1A1-I  \n\n    O Estado moderno exerce um papel importante na moldagem da distribuição de renda e do bem-estar entre seus cidadãos, moderando as desigualdades geradas pela economia de mercado. Ele busca esses objetivos por intermédio de várias políticas públicas, como o estabelecimento do arcabouço legal do ambiente de negócios, a regulação da concorrência econômica, a provisão de bens e serviços públicos, a promoção de transferências monetárias às famílias de baixa renda e a arrecadação dos tributos necessários a seu financiamento.\n \n    Entre as principais funções do Estado, sob a ótica das finanças públicas, está a função redistributiva. Essa função está basicamente associada a ajustamentos no perfil da distribuição de renda, uma vez que as alocações de mercado podem levar a uma situação de desigualdade não apoiada pelos anseios gerais da população. Nesse caso, o equilíbrio de mercado pode passar a gerar conflitos e a interferir no funcionamento da própria sociedade.\n \n    Um importante instrumento à disposição do Estado para exercer sua função distributiva é, naturalmente, o sistema tributário. Por meio dele, o governo pode ajustar a renda dos cidadãos, taxando mais algumas rendas e menos outras, de forma a atingir uma distribuição final mais equitativa. Um sistema tributário progressivo é aquele no qual os impostos aumentam mais que proporcionalmente com o aumento da renda dos contribuintes. O sistema regressivo ocorre quando o pagamento dos impostos aumenta menos que proporcionalmente com a renda dos contribuintes e proporcional (ou neutro) quando os impostos aumentam proporcionalmente com a renda.\n \n    O sistema de impostos progressivo tende a reduzir a desigualdade de renda entre os cidadãos. No contexto do sistema tributário de qualquer país, o tributo que melhor possibilita a aplicação do princípio da progressividade é o imposto de renda da pessoa física (IRPF). O IRPF brasileiro apresenta elevada progressividade em termos de desvio da proporcionalidade e moderada capacidade redistributiva, em função da baixa representatividade da arrecadação frente à renda bruta total do país. A progressividade do tributo brasileiro advém essencialmente da estrutura de alíquotas, sendo que a estrutura das deduções do rendimento bruto é proporcional e, portanto, neutra em termos de progressividade.\nInternet: https://www.scielo.br/ (com adaptações)",
+      "question": "Em relação a aspectos linguísticos do texto CG1A1-I, julgue o próximo item.\nNo texto, predomina a tipologia descritiva, o que se confirma pela exposição de dados empíricos",
       "options": [
         "Certo",
         "Errado"
       ],
       "correctAnswer": 1,
-      "explanation": "A expressão é metafórica, indicando que o canário trazia vivacidade ao ambiente, não se referindo a um som literal."
-    },
-    {
-      "question": "Texto:\n“Então o teu dono não te vendeu a esta casa? Não foi a miséria ou a ociosidade que te trouxe a este cemitério.”\n\nEnunciado:\nA correlação verbal entre os tempos verbais “vendeu” e “trouxe” está adequada, pois ambos estão no pretérito perfeito, indicando ações concluídas no passado.",
-      "options": [
-        "Certo",
-        "Errado"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Os verbos estão corretamente conjugados no pretérito perfeito, mantendo a coerência temporal."
-    },
-    {
-      "question": "Texto:\n“Nem o ruído do cavalo e do veículo, nem a minha entrada fez levantar o dono do negócio.”\n\nEnunciado:\nO termo “o dono do negócio” exerce a função de complemento nominal, pois está relacionado ao núcleo verbal “fez levantar”.",
-      "options": [
-        "Certo",
-        "Errado"
-      ],
-      "correctAnswer": 1,
-      "explanation": "“O dono do negócio” é o sujeito da oração, não um complemento nominal."
-    },
-    {
-      "question": "Texto:\n“A queda do trabalho infantil foi observada em todas as faixas etárias.”\n\nEnunciado:\nO termo “do trabalho infantil” exerce a função de adjunto adnominal, pois restringe e especifica o substantivo “queda”.",
-      "options": [
-        "Certo",
-        "Errado"
-      ],
-      "correctAnswer": 0,
-      "explanation": "A expressão “do trabalho infantil” especifica o tipo de queda, funcionando como adjunto adnominal."
+      "explanation": "Predomina a tipologia do texto dissertativo-argumentativo, o que se confirma, justamente, pela exposição de dados empíricos."
     }
   ]
 }

@@ -13,6 +13,7 @@ export interface Quiz {
 
 export interface Question {
   question: string;
+  text: string;
   options: string[];
   correctAnswer: number;
   explanation: string;

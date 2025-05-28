@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Quiz as QuizType, Question as QuestionType } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter, CardDescription } from '@/components/ui/card';
-import { CheckCircle, XCircle, ChevronRight, ChevronLeft } from 'lucide-react';
+import { CheckCircle, XCircle, ChevronRight, ChevronLeft, Eye, EyeOff } from 'lucide-react';
 
 // Função para formatar texto com quebras de linha e outros caracteres especiais
 function formatText(text: string): React.ReactElement {
@@ -202,14 +202,45 @@ interface QuestionCardProps {
 }
 
 function QuestionCard({ question, index, selectedOption, onSelectOption }: QuestionCardProps) {
+  const [showText, setShowText] = useState(false);
+
   const handleOptionClick = (optionIndex: number) => {
     onSelectOption(optionIndex);
   };
 
+  const toggleText = () => {
+    setShowText(!showText);
+  };
+
   return (    <Card className="shadow-md border">
-      <CardHeader className="bg-muted/30">
-        <CardTitle>Questão {index + 1}</CardTitle>
-        <CardDescription className="text-lg mt-2 leading-relaxed">
+      <CardHeader>        <CardTitle>Questão {index + 1}</CardTitle>
+        
+        {/* Texto de referência quando visível */}
+        {showText && question.text && (
+          <div className="mt-4 p-6 rounded-lg leading-relaxed">
+            <h4 className="text-sm font-medium mb-3">Texto de Referência:</h4>
+            <div className="text-sm leading-relaxed">
+              {formatText(question.text)}
+            </div>
+          </div>
+        )}
+
+        {/* Botão centralizado para mostrar/ocultar texto de referência */}
+        {question.text && (
+          <div className="mt-4 flex justify-center">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={toggleText}
+              className="text-sm"
+            >
+              {showText ? "Ocultar Texto de Referência" : "Mostrar Texto de Referência"}
+            </Button>
+          </div>
+        )}
+
+        {/* Questão aparece após o texto de referência */}
+        <CardDescription className="text-lg mt-4 leading-relaxed">
           {formatText(question.question)}
         </CardDescription>
       </CardHeader>
