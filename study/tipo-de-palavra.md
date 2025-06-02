@@ -3,7 +3,7 @@
 # 📚 Emprego das Classes de Palavras – PF 2025 (CEBRASPE)\
 
 
-Video: [Acesse aqui](https://www.youtube.com/watch?v=)
+Video: [Acesse aqui](https://www.youtube.com/watch?v=pu5bPNWzKB8)
 
 
 > Neste conteúdo, vamos entender o que são as classes de palavras, como reconhecê-las, e quais são os principais pontos cobrados pela banca CEBRASPE.
